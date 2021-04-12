@@ -1,0 +1,6 @@
+# All Singularity image files
+*.sif
+
+# Vim files
+*.swp
+
