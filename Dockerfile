@@ -9,7 +9,7 @@ ENV NIXENV "/root/.nix-profile/etc/profile.d/nix.sh"
 RUN mkdir -p /root/.config/nixpkgs/
 
 COPY config.nix /root/.config/nixpkgs/
-COPY namd3.nix /root/
+COPY dev.nix /root/
 COPY prod-env.nix /root/
 COPY persist-env.sh /root/
 
